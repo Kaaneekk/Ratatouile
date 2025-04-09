@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Receitas</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            text-align: center;
+        }
+        header{
+            background-color: rgb(180, 70, 70);
+            color: aliceblue;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .container{
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        .grid{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            justify-items: center;
+        }
+        .box{
+            background-color: rgb(0, 115, 255);
+            padding: 20px;
+            border-radius: 5px;
+            text-align: center;
+            width: 300px;
+            transition: transform 0.3s ease, background-color 0.3s ease;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .box:hover {
+            transform: scale(1.1);
+            background-color: #3e00db;
+        }
+        .box img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+        .recipe-title {
+            font-size: 20px;
+            font-weight: bold;
+            color: #333;
+            margin-top: 10px;
+        }
+        .recipe-content {
+            margin-top: 15px;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 5px;
+            width: 100%;
+            text-align: left;
+        }
+        .recipe-content h3 {
+            margin-bottom: 5px;
+        }
+        .recipe-content p {
+            margin-bottom: 15px;
+        }
+        .recipe-content h4 {
+            margin-top: 15px;
+            margin-bottom: 20px;
+        }
+        footer {
+            margin-top: 20px;
+            padding: 10px;
+            background-color: #f1f1f1;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        Receitas Ucranianas da Vovó
+    </header>
+
+    <div class="container">
+        <h2>Tapera</h2>
+        <div class="grid">
+            <div class="box">
+                <div class="recipe-title">Charuto de Repolho</div>
+                <img src="Charuto de Repolho.jpg" alt="Charuto de Repolho">
+                <div class="recipe-content">
+                    <h3>Ingredientes</h3>
+                    <p>
+                        2 cebolas<br>
+                        2 dentes de alho<br>
+                        8 tomates sem pele e picados com a semente<br>
+                        1l de água fervente<br>
+                        14 folhas de repolho<br>
+                        1 colher (chá) de sal<br>
+                        Pimenta-do-reino a gosto<br>
+                        1 colher (chá) de hortelã seca<br>
+                        ½ xícara (chá) cheiro verde a gosto<br>
+                        1 colher (sopa) de páprica doce<br>
+                        ½ colher (sopa) de sal<br>
+                        2 pimentas sem sementes picadas<br>
+                        Azeite a gosto,
+                         
+                        
+                    </p>
+                    <h3>Recheio</h3>
+                    <p>
+                        1 xícara de chá de arroz lavado e escorrido
+                        500g de carne moída <br><br>
+                    </p>
+                    <h4>Modo de preparo: 40min</h4>
+                    <p>
+                        Frite, em uma panela larga, a cebola e o alho no azeite até dourar.
+                        Acrescente na panela, os tomates e deixe cozinhar por 15min.
+                        Reserve.
+                        Aqueça, em outra panela, a água e coloque as folhas de repolho.
+                        Deixe o repolho por 5 minutos sem ferver ou leve as folhas ao microondas por 2min.
+                        Escorra e reserve.
+                        Coloque o arroz, em uma tigela e lave bem.
+                        Escorra toda a água.
+                        Acrescente na tigela, a carne, o sal, a pimenta-do-reino, a hortelã, o cheiro verde e a páprica.
+                        Misture bem.
+                        Faça rolinhos com a carne.
+                        Coloque os rolinhos em cada uma das folhas de repolho.
+                        Enrole o repolho em volta da carne, e prenda com um palito.
+                        Coloque os charutos de repolho na panela com o tomate refogado.
+                        Acrescente na panela, o sal, a pimenta malagueta.
+                        Acrescente um pouco de água, se necessário.
+                        Deixe cozinhar em fogo baixo de 15 a 20min com a panela tampada.
+                        Cuide para que não seque o caldo do cozimento.
+                        Sirva quente.
+                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="recipe-title">Pirogue de Feijão</div>
+                <img src="pirogue de feijão.webp" alt="Pirogue de Feijão">
+                <div class="recipe-content">
+                    <h3>Ingredientes</h3>
+                    <p>
+                        1 1/2 colher de fermento para pão 
+                        farinha de trigo Aproximadamente 500 g de farinha de trigo 
+                        ovo 2 ovos inteiros 
+                        manteiga 2 colheres de margarina ou manteiga
+                        óleo 1 colher de óleo
+                        sal 1 colher rasa de sal 
+                        açúcar 1/2 colher de açúcar 
+                        Leite morno para amassar
+                    </p>
+
+                    <h3>Recheio</h3>
+                    <p>
+                        Feijão cozido 
+                        Cebolinha verde 
+                        Sal e pimenta 
+                        Óleo<br><br>
+
+
+                    <h4>Modo de Preparo: 1h</h4>
+                    <p>
+                        Misture o leite morno, o açúcar e o fermento.
+                        Deixe crescer.
+                        Junte 2 colheres de farinha de trigo, crescerá mais um pouco.
+                        Adicione a farinha e demais ingredientes.
+                        Amasse bem, deixe crescer até dobrar de volume.
+                        Se a massa ficar muito mole pode acrescentar mais farinha de trigo.
+                        Depois de cozido o feijão, escorrer todo o seu caldo.
+                        Amasse bem, pode ser com um fundo de garrafa.
+                        Frite a cebolinha no óleo.
+                        Acrescente o sal e a pimenta.
+                        Misture bem.
+                        Pegue pedaços de massa.
+                        Modele o pirogue Acrescente o recheio de feijão Feche e aperte as bordas e cozinhe em uma panela de pressão                    </p>
+                </div>
+            </div>
+            <div class="box">
+                <div class="recipe-title">Kutiá</div>
+                <img src="kutia da vó.jpg" alt="kutia">
+                <div class="recipe-content">
+                    <h3>Ingredientes</h3>
+                    <p>
+                        500g de trigo em semente sem casca, <br>
+                        1 litro de leite condensado, <br>
+                        1 litro de creme de leite, <br>
+                        500g de amendoim torrado descascado e moído no liquidificador com o coco, <br>
+                        5 paçoquinhas.
+                    </p>
+                    <h4>Modo de preparo: 2h</h4>
+                    <p>
+                        Deixe de molho o trigo por mais ou menos três horas antes. <br>
+                        Coloque o trigo em uma panela e cozinhe. Depois de quase amolecido, coloque o leite condensado, o amendoim com o coco já batido no liquidificador e volte a cozinhar. <br>
+                        Se preferir, adoce a seu gosto. <br>
+                        Deixe esfriar e coloque o creme de leite, mexendo bem. <br>
+                        Leve para gelar ou sirva quente.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        Luiz Gustavo
+    </footer>
+</body>
+</html>
